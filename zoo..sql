@@ -73,7 +73,7 @@ INSERT INTO `animali` (`id_animali`, `nome`, `specie`, `eta`, `responsabile`) VA
 CREATE TABLE `cibi` (
   `id_cibi` int(11) UNSIGNED NOT NULL,
   `nome` varchar(30) DEFAULT NULL,
-  `prezzo` varchar(30) DEFAULT NULL,
+  `prezzo` int(30) DEFAULT NULL,
   `marca` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
